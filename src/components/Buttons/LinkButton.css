@@ -1,0 +1,13 @@
+.btn-lnk {
+    background: linear-gradient(to right, #0002, #0002);
+    background-size: 100% 0;
+
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
+
+.btn-lnk:hover,
+.btn-lnk:focus {
+    background-size: 100% 100%;
+}

@@ -1,3 +1,28 @@
 {
-  "hello-world": "Bonjour monde!"
+  "hello-world": "Bonjour monde !",
+  "auth": {
+    "login": "Se Connecter",
+    "register": "S'Enregister"
+  },
+  "field": {
+    "mail": "Adresse mail",
+    "pass": "Mot de passe",
+    "remember": "Se souvenir de moi"
+  },
+  "action": {
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "open": "Ouvrir",
+    "login": "Se Connecter",
+    "task-new": "Nouvelle tâche",
+    "enter-field": "Entrez votre {{field}}"
+  },
+  "nav": {
+    "about": "À Propos",
+    "home": {
+      "task": "Task",
+      "inator": "inator"
+    },
+    "new-task": "Nouvelle tâche"
+  }
 }

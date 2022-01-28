@@ -2,19 +2,23 @@ import logo from '../logo.svg';
 import './App.css';
 import {useTranslation} from "react-i18next";
 import {changeLanguage} from "i18next";
+import AppHeader from './AppHeader.js'
+import React from "react";
 
 function App() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
+
   return (
     <div className="App">
-      <header className="App-header">
+      <AppHeader/>
+      <div className="App-header">
         <button type="button" onClick={() => changeLanguage('fr')}>
           FR
         </button>
         <button type="button" onClick={() => changeLanguage('en')}>
           EN
         </button>
-        <img src={logo} className="App-logo" alt="logo"/>
+        <img src={logo} className="App-logo motion-safe:animate-wiggle" alt="logo"/>
         <p>{t('hello-world')}</p>
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -27,7 +31,10 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </div>
+      <div className={"App-header"}>
+        <h1>Second screen</h1>
+      </div>
     </div>
   );
 }
