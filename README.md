@@ -1,6 +1,7 @@
-# Getting Started with Create React App
-
+# React functional front starter pack (using hooks)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+It is using the [Nest.js API](https://github.com/BetaTuX/nest-typeORM-pgsql-api-starter) available in my repository.
 
 ## Available Scripts
 
